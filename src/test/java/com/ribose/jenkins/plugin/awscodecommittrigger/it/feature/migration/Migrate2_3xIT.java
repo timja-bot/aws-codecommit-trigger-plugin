@@ -4,11 +4,11 @@ import com.cloudbees.jenkins.plugins.awscredentials.AmazonWebServicesCredentials
 import com.cloudbees.plugins.credentials.Credentials;
 import com.cloudbees.plugins.credentials.SystemCredentialsProvider;
 import com.cloudbees.plugins.credentials.domains.Domain;
-import com.gargoylesoftware.htmlunit.AjaxController;
-import com.gargoylesoftware.htmlunit.WebRequest;
-import com.gargoylesoftware.htmlunit.html.DomElement;
-import com.gargoylesoftware.htmlunit.html.HtmlButton;
-import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import org.htmlunit.AjaxController;
+import org.htmlunit.WebRequest;
+import org.htmlunit.html.DomElement;
+import org.htmlunit.html.HtmlButton;
+import org.htmlunit.html.HtmlPage;
 import com.ribose.jenkins.plugin.awscodecommittrigger.PluginInfo;
 import com.ribose.jenkins.plugin.awscodecommittrigger.SQSTrigger;
 import com.ribose.jenkins.plugin.awscodecommittrigger.SQSTriggerQueue;
